@@ -1,0 +1,140 @@
+<div class="brk-backgrounds brk-base-bg-gradient-15" data-brk-library="component__backgrounds_css,component__backgrounds_js,assets_particleground">
+    <div class="brk-backgrounds__canvas brk-particles-standart"></div>
+    <div class="brk-backgrounds__content">
+        <div class="container mt-140 mb-150">
+            <div class="text-center" data-brk-library="component__title">
+                <h2 class="font__family-playfair font__style-italic font__weight-normal font__size-48 line__height-52 brk-white-font-color">
+                    {{ title }}</h2>
+                <div class="divider-cross wow zoomIn"><span></span> <span></span></div>
+                <h5 class="font__family-playfair line__height-26 font__size-18 letter-spacing-20 brk-white-font-color opacity-60 mb-50">
+                    {{ desc }}</h5>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mt-md-130 text-center">
+    <h2 class="font__family-playfair font__style-italic font__weight-normal font__size-48 line__height-52" data-brk-library="component__title">CEO</h2>
+    <div class="divider-cross wow zoomIn" data-brk-library="component__title"><span></span> <span></span></div>
+</div>
+
+<div class="container mt-80">
+    <div class="brk-team-member" data-brk-library="component__team_page">
+        <div class="brk-team-member__header">
+            <div class="brk-team-member__img-container fancybox" href="assets/img/CEO.png"><img src="assets/img/CEO.png" alt="alt" class="brk-team-member__img"></div>
+            <div class="brk-team-member__info">
+                <div class="brk-team-member__main-info pb-35 mb-70">
+                    <h2 class="brk-team-member__name font__family-montserrat font__size-36 font__weight-normal text-uppercase">{{ ceoName }}</h2>
+
+                    <span class="w-100 brk-dark-font-color font__family-montserrat font__weight-normal font__size-15">{{ ceoPos }}</span>
+                </div>
+                <div class="col-12">
+                    <div class="mb-70">
+                        <div class="brk-tabs brk-tabs_canted" data-brk-library="component__tabs">
+                            <ul class="brk-tabs-nav font__family-montserrat font__size-14 font__weight-semibold line__height-14 text-uppercase">
+                                <li class="brk-tab"><span>{{ ceoMessage }}</span></li>
+                                <li class="brk-tab"><span>{{ Respect }}</span></li>
+                                <li class="brk-tab"><span>{{ MeetPeople }}</span></li>
+                            </ul>
+                            <div class="brk-tabs-content">
+                                <div class="brk-tab-item pt-40">
+                                    <div class="row">
+                                        <div class="col-12 ">
+                                            <p class="brk-dark-font-color font__family-open-sans font__size-16 font__weight-normal line__height-26 mb-30 opacity-80">
+                                                {{ ceoDesc1 }}
+                                            </p>
+                                            <p class="brk-dark-font-color font__family-open-sans font__size-16 font__weight-normal line__height-26 mb-30 opacity-80">
+                                                {{ ceoDesc2 }}
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="brk-tab-item pt-40">
+                                    <div class="row">
+                                        <div class="col-12 ">
+                                            <p class="brk-dark-font-color font__family-open-sans font__size-16 font__weight-normal line__height-26 mb-30">{{ RespectDesc1 }}</p>
+                                            <p class="brk-dark-font-color font__family-open-sans font__size-16 font__weight-normal line__height-26 mb-30">{{ RespectDesc2 }}</p>
+                                            <ul class="brk-dark-font-color font__family-open-sans font__size-16 font__weight-normal line__height-26 mb-30">
+                                                <li *ngFor="let item of ListArr">{{ item }}</li>
+                                            </ul>
+
+                                            <p class="brk-dark-font-color font__family-open-sans font__size-16 font__weight-normal line__height-26 mb-30">{{ RespectDesc3 }}</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="brk-tab-item pt-40">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <p class="brk-dark-font-color font__family-open-sans font__size-16 font__weight-normal line__height-26 mb-30">{{ MeetDesc1 }}</p>
+                                            <p class="brk-dark-font-color font__family-open-sans font__size-16 font__weight-normal line__height-26 mb-30">{{ MeetDesc2 }}</p>
+                                            <p class="brk-dark-font-color font__family-open-sans font__size-16 font__weight-normal line__height-26 mb-30">{{ MeetDesc3 }}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container text-center">
+    <div class="mt-30">
+        <h4 class="title__heading-04 title__heading-sub font__family-montserrat font__size-50 font__weight-bold wow zoomIn" data-brk-library="component__title">{{ employee }}</h4>
+        <h2 class="title__heading-04 title__heading-main font__family-pacifico font__size-36" data-brk-library="component__title">{{ employee }}</h2>
+    </div>
+</div>
+<div class="container mt-80">
+    <div class="brk-team-member" data-brk-library="component__team_page">
+        <div class="brk-team-member__header">
+            <div class="brk-team-member__img-container fancybox" href="assets/img/jeane.png"><img src="assets/img/jeane.png" alt="alt" class="brk-team-member__img"></div>
+            <div class="brk-team-member__info">
+                <div class="brk-team-member__main-info pb-35 mb-70">
+                    <h2 class="brk-team-member__name font__family-montserrat font__size-36 font__weight-normal text-uppercase">{{ employeeName }}</h2>
+
+                    <span class="w-100 brk-dark-font-color font__family-montserrat font__weight-normal font__size-15">{{ employeePos }}</span>
+                </div>
+                <div class="col-12">
+                    <div class="mb-70">
+                        <div class="brk-tabs brk-tabs_canted" data-brk-library="component__tabs">
+                            <ul class="brk-tabs-nav font__family-montserrat font__size-14 font__weight-semibold line__height-14 text-uppercase">
+                                <li class="brk-tab"><span>{{ friendly }}</span></li>
+                                <li class="brk-tab"><span>{{ workDev }}</span></li>
+                            </ul>
+                            <div class="brk-tabs-content">
+                                <div class="brk-tab-item pt-40">
+                                    <div class="row">
+                                        <div class="col-12 ">
+                                            <p class="brk-dark-font-color font__family-open-sans font__size-16 font__weight-normal line__height-26 mb-30 opacity-80">
+                                                {{ friendlyDesc1 }}
+                                            </p>
+                                            <p class="brk-dark-font-color font__family-open-sans font__size-16 font__weight-normal line__height-26 mb-30 opacity-80">
+                                                {{ friendlyDesc2 }}
+                                            </p>
+                                            <p class="brk-dark-font-color font__family-open-sans font__size-16 font__weight-normal line__height-26 mb-30 opacity-80">
+                                                {{ friendlyDesc3 }}
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="brk-tab-item pt-40">
+                                    <div class="row">
+                                        <div class="col-12 ">
+                                            <p class="brk-dark-font-color font__family-open-sans font__size-16 font__weight-normal line__height-26 mb-30">{{ workDevDesc1 }}</p>
+                                            <p class="brk-dark-font-color font__family-open-sans font__size-16 font__weight-normal line__height-26 mb-30">{{ workDevDesc2 }}</p>
+                                            <p class="brk-dark-font-color font__family-open-sans font__size-16 font__weight-normal line__height-26 mb-30">{{ workDevDesc3 }}</p>
+                                            <p class="brk-dark-font-color font__family-open-sans font__size-16 font__weight-normal line__height-26 mb-30">{{ workDevDesc4 }}</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
